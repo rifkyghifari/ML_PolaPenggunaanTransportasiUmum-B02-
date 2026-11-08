@@ -20,9 +20,9 @@ Link: https://satudata.jakarta.go.id/open-data/detail?kategori=dataset&page_url=
 
 
 ## Cara menjalankan
-1. `pip install -r requirements.txt`
-2. Letakkan file `.xls` di folder yang sama dengan notebook (atau di Colab, unggah lewat sel `files.upload()`).
-3. Buka `notebooks/UTS_B02.ipynb` dan jalankan *Run all*.
+1. Letakkan file dataset `.xls` di folder yang sama dengan notebook (di Google Colab, unggah lewat sel `files.upload()`).
+2. Buka `notebooks/UTS_B02.ipynb` dan jalankan *Run all*.
+
 Seed acak: `random_state=42`.
 Link Colab: https://colab.research.google.com/drive/1D9IAD6pWsUYy6m1JIhZ3F-GTZeOzPWxy?usp=sharing
 
