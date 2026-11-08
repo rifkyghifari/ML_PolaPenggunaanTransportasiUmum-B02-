@@ -1,6 +1,0 @@
-peran,model,validasi,silhouette,davies_bouldin,calinski_harabasz,silhouette_fold_rata2,silhouette_fold_std,ARI_fold_rata2
-Baseline,K-Means (k=3),5-fold pada tanggal (uji kestabilan),0.4353770257339712,0.6186228018059988,10.163179229132941,0.4352062571172272,0.004701277321577698,1.0
-Kandidat 1,K-Means (k=4),5-fold pada tanggal (uji kestabilan),0.533088093643916,0.2048672849738207,39.927783536671335,0.5328985967708199,0.0019223741297596814,1.0
-Kandidat 2,Agglomerative (k=4),5-fold pada tanggal (uji kestabilan),0.533088093643916,0.2048672849738207,39.92778353667133,0.5328985967708199,0.0019223741297596814,1.0
-Kandidat 3,GMM (diag) (k=4),Tidak diuji 5-fold; dibandingkan dengan K-Means (ARI),0.533088093643916,0.2048672849738207,39.927783536671335,,,
-Kandidat 4,Agglomerative (average) (k=4),Tidak diuji 5-fold; dibandingkan dengan K-Means (ARI),0.533088093643916,0.2048672849738207,39.927783536671335,,,
