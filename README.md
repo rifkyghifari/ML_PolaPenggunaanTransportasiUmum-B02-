@@ -18,8 +18,6 @@ Jumlah penumpang angkutan umum Jakarta berbeda sangat jauh antarmoda, dan pola h
 
 Project ini mengelompokkan 8 jenis moda angkutan umum (TransJakarta, KRL, MIKROTRANS, MRT, Bus Sekolah, KCI Commuter Bandara, LRT, dan Kapal) berdasarkan skala penumpang, rasio penumpang akhir pekan terhadap hari kerja, dan kestabilan harian. Pendekatan yang dipakai adalah clustering (unsupervised learning) tanpa label.
 
-Dataset: Jumlah Penumpang Angkutan Umum yang Terlayani per Hari, Satu Data Jakarta (data dari Dinas Perhubungan DKI Jakarta): [isi link dataset].
-
 Status: hasil awal Milestone 1 (UTS). Model final belum ditetapkan dan akan dipilih pada tahap UAS.
 
 ## Petunjuk Penggunaan Repository
@@ -33,6 +31,6 @@ Status: hasil awal Milestone 1 (UTS). Model final belum ditetapkan dan akan dipi
 | `Laporan Milestone 1/` | Laporan Milestone 1 dalam format PDF |
 
 **Cara menjalankan notebook**
-1. Buka `UTS_Kelompok4_B02.ipynb` di Google Colab: [isi link Colab].
+1. Buka `UTS_Kelompok4_B02.ipynb` di Google Colab: https://colab.research.google.com/drive/1D9IAD6pWsUYy6m1JIhZ3F-GTZeOzPWxy?usp=sharing.
 2. Unggah file dataset `.xls` dari folder `Dataset/` saat diminta oleh sel `files.upload()`.
 3. Jalankan seluruh sel secara berurutan (*Runtime → Restart and run all*).
