@@ -10,13 +10,10 @@ Mata kuliah: [isi] | Dosen: [isi]
 | Indra Jeremia Tinambunan | 231112760 |
 | Selamet Riyadi | 231112132 |
 
-## Ringkasan
-Mengelompokkan 8 moda angkutan umum Jakarta berdasarkan skala penumpang, rasio akhir pekan/hari kerja, dan kestabilan harian. Hasil awal (Milestone 1): K-Means k = 4 sebagai kandidat terkuat sementara; model final belum ditetapkan.
-
 ## Dataset
 Jumlah Penumpang Angkutan Umum yang Terlayani per Hari, Satu Data Jakarta (data dari Dinas Perhubungan DKI Jakarta).
-Link: [isi link dataset]. Diunduh: [isi tanggal]. 7.061 baris (1 Jan 2024 - 31 Agt 2026).
-Lisensi/ketentuan: [isi].
+Link: https://satudata.jakarta.go.id/open-data/detail?kategori=dataset&page_url=jumlah-penumpang-angkutan-umum-yang-terlayani-perhari&data_no=1. 7.061 baris (1 Jan 2024 - 31 Agt 2026).
+Sifat Data: Terbuka
 File `.xls` sebenarnya berformat HTML, sehingga dibaca dengan `pd.read_html`.
 
 ## Cara menjalankan
@@ -24,10 +21,6 @@ File `.xls` sebenarnya berformat HTML, sehingga dibaca dengan `pd.read_html`.
 2. Letakkan file `.xls` di folder yang sama dengan notebook (atau di Colab, unggah lewat sel `files.upload()`).
 3. Buka `notebooks/UTS_B02.ipynb` dan jalankan *Run all*.
 Seed acak: `random_state=42`.
-Link Colab: [isi link]
+Link Colab: https://colab.research.google.com/drive/1D9IAD6pWsUYy6m1JIhZ3F-GTZeOzPWxy?usp=sharing
 
-## Struktur folder
-(salin struktur di atas dan beri satu baris penjelasan tiap folder)
 
-## Hasil
-Tabel ringkasan ada di `results/hasil_eksperimen_milestone1.csv` dan di laporan PDF.
