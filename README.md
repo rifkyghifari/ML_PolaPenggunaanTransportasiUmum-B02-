@@ -1,7 +1,7 @@
 # ML_PolaPenggunaanTransportasiUmum-B02-
 # Pola Penggunaan Transportasi Umum Berdasarkan Waktu dan Jenis Layanan
-Project ID B02 | Kelompok 4 | Metode: Clustering (unsupervised learning)
-Mata kuliah: Pembelajaran Mesin | Kelas: IF-B Pagi
+- Project ID B02 | Kelompok 4 | Metode: Clustering (unsupervised learning)
+- Mata kuliah: Pembelajaran Mesin | Kelas: IF-B Pagi
 
 ## Anggota
 | Nama | NIM |
