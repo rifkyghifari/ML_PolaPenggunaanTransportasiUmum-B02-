@@ -1,29 +1,38 @@
-# ML_PolaPenggunaanTransportasiUmum-B02-
 # Pola Penggunaan Transportasi Umum Berdasarkan Waktu dan Jenis Layanan
-- Project ID B02 | Kelompok 4 | Metode: Clustering (unsupervised learning)
-- Mata kuliah: Pembelajaran Mesin | Kelas: IF-B Pagi
+
+## Project ID
+B02
+
+## Nama Kelompok
+Kelompok 4
 
 ## Anggota
-| Nama | NIM |
+| No | Nama | NIM |
+|---|---|---|
+| 1 | Rifky Ghiffari Siregar | 231112918 |
+| 2 | Indra Jeremia Tinambunan | 231112760 |
+| 3 | Selamet Riyadi | 231112132 |
+
+## Deskripsi Masalah
+Jumlah penumpang angkutan umum Jakarta berbeda sangat jauh antarmoda, dan pola hari kerja dibandingkan akhir pekan juga berbeda. Belum diketahui apakah moda-moda ini dapat dikelompokkan berdasarkan pola penggunaannya.
+
+Project ini mengelompokkan 8 jenis moda angkutan umum (TransJakarta, KRL, MIKROTRANS, MRT, Bus Sekolah, KCI Commuter Bandara, LRT, dan Kapal) berdasarkan skala penumpang, rasio penumpang akhir pekan terhadap hari kerja, dan kestabilan harian. Pendekatan yang dipakai adalah clustering (unsupervised learning) tanpa label.
+
+Dataset: Jumlah Penumpang Angkutan Umum yang Terlayani per Hari, Satu Data Jakarta (data dari Dinas Perhubungan DKI Jakarta): [isi link dataset].
+
+Status: hasil awal Milestone 1 (UTS). Model final belum ditetapkan dan akan dipilih pada tahap UAS.
+
+## Petunjuk Penggunaan Repository
+
+**Isi repository**
+| Lokasi | Isi |
 |---|---|
-| Rifky Ghiffari Siregar | 231112918 |
-| Indra Jeremia Tinambunan | 231112760 |
-| Selamet Riyadi | 231112132 |
+| `UTS_Kelompok4_B02.ipynb` | Notebook eksperimen (Google Colab) |
+| `Dataset/` | Dataset yang dipakai notebook |
+| `hasil_milestone1/` | Tabel hasil eksperimen awal (berkas `.csv`) |
+| `Laporan Milestone 1/` | Laporan Milestone 1 dalam format PDF |
 
-## Dataset
-- Jumlah Penumpang Angkutan Umum yang Terlayani per Hari, Satu Data Jakarta (data dari Dinas Perhubungan DKI Jakarta).
-Link: https://satudata.jakarta.go.id/open-data/detail?kategori=dataset&page_url=jumlah-penumpang-angkutan-umum-yang-terlayani-perhari&data_no=1. 7.061 baris (1 Jan 2024 - 31 Agt 2026).
-- Sifat Data: Terbuka
-- File `.xls` sebenarnya berformat HTML, sehingga dibaca dengan `pd.read_html`.
-- Berikut dataset dalam excel:
-[jumlah-penumpang-angkutan-umum-yang-terlayani-per-hari-komponen-data.xls](https://github.com/user-attachments/files/34539313/jumlah-penumpang-angkutan-umum-yang-terlayani-per-hari-komponen-data.xls)
-
-
-## Cara menjalankan
-1. Letakkan file dataset `.xls` di folder yang sama dengan notebook (di Google Colab, unggah lewat sel `files.upload()`).
-2. Buka `notebooks/UTS_B02.ipynb` dan jalankan *Run all*.
-
-Seed acak: `random_state=42`.
-Link Colab: https://colab.research.google.com/drive/1D9IAD6pWsUYy6m1JIhZ3F-GTZeOzPWxy?usp=sharing
-
-
+**Cara menjalankan notebook**
+1. Buka `UTS_Kelompok4_B02.ipynb` di Google Colab: [isi link Colab].
+2. Unggah file dataset `.xls` dari folder `Dataset/` saat diminta oleh sel `files.upload()`.
+3. Jalankan seluruh sel secara berurutan (*Runtime → Restart and run all*).
